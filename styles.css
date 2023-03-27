@@ -1,9 +1,21 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 header {
@@ -58,8 +70,8 @@ img {
 }
 
 .images {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 h1 {
@@ -78,6 +90,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px;
 }
 
 .quote {
@@ -107,4 +120,41 @@ button {
 
     font-weight: bold;
     margin: 0;
+}
+
+.callToAction {
+    background-color: #3882f6;
+    color: white;
+    margin: 80px 15%;
+    border-radius: 10px;
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.callToAction button {
+    margin: 0;
+    padding: 0;
+    border: 3px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.callToAction p {
+    color: #E5E7Eb;
+    font-size: 13px;
+}
+
+footer  {
+    background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#E5E7EB
 }
