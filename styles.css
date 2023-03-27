@@ -120,7 +120,7 @@ header {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding: 10%;
 }
 
 .quoteContainer {
@@ -132,7 +132,7 @@ header {
 .quote h3 {
     font-weight: 100;
     font-style: italic;
-    font-size: 32px;
+    font-size: 36px;
     color: #1F2937;
     margin: 0;
 }
@@ -141,7 +141,9 @@ header {
     display: flex;
     justify-content: flex-end;
 
-    font-weight: bold;
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 24px;
     margin: 0;
 }
 
