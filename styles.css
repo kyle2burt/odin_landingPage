@@ -1,3 +1,6 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -75,4 +78,33 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.quoteContainer {
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.quote h3 {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 32px;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote p {
+    display: flex;
+    justify-content: flex-end;
+
+    font-weight: bold;
+    margin: 0;
 }
