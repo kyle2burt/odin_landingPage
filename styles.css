@@ -149,19 +149,28 @@ header {
 
 .callToAction {
     background-color: #3882f6;
-    color: white;
-    margin: 80px 15%;
+    margin: 7% 15%;
     border-radius: 10px;
     display: flex;
-    padding: 40px;
+    padding: 50px;
     justify-content: space-around;
+    align-items: center;
+}
+
+.callToAction h3 {
+    color: #FAFAF8;
+    font-size: 24px;
 }
 
 .callToAction button {
     margin: 0;
-    padding: 0;
-    border: 3px solid #E5E7EB;
+    padding: 8px 32px 8px 32px;
+    border: 2px solid #E5E7EB;
     border-radius: 5px;
+    color: #FAFAF8;
+    background-color: #3882f6;
+    font-size: 16px;
+    font-weight: 800;
 }
 
 .textContainer {
@@ -172,14 +181,14 @@ header {
 
 .callToAction p {
     color: #E5E7Eb;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 footer  {
     background-color: #1F2937;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#E5E7EB
+    color:#E5E7EB;
 }
